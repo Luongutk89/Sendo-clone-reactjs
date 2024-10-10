@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Thiết lập font và các thông số mặc định toàn trang */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.test-doi-icon {
+  font-size: 50px;
+  color: blue;
+}
+
+
+
+
+
+.header-layout-container {
+  height: 60px;
+  background-color: #D32F2F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu-link {
+  color: #fff;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}

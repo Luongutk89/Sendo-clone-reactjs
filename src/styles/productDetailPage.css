@@ -1,0 +1,158 @@
+.product-details {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info {
+    width: 50%;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product-brand {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.product-price {
+    font-size: 24px;
+    color: red;
+    margin-bottom: 15px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: grey;
+    margin-left: 10px;
+}
+
+.discount {
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.star {
+    color: gold;
+    font-size: 20px;
+}
+
+.review-count,
+.purchase-count {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.color-options,
+.size-options {
+    display: flex;
+    gap: 10px;
+}
+
+.color-box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.color-box.selected {
+    border-color: red;
+}
+
+.size-box {
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.size-box.selected {
+    border-color: red;
+}
+
+.quantity-option {
+    margin-top: 20px;
+}
+
+.quantity-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.quantity-input {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.quantity-btn {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #333;
+
+}
+
+.add-to-cart,
+.buy-now {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.add-to-cart {
+    background-color: #ff6b6b;
+}
+
+.buy-now {
+    background-color: red;
+}

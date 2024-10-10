@@ -1,0 +1,85 @@
+.product-page {
+    display: flex; /* Sử dụng flex để căn chỉnh các phần tử */
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.filter-section {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px; /* Đặt chiều rộng cố định cho phần lọc */
+    margin-right: 20px; /* Khoảng cách giữa phần lọc và danh sách sản phẩm */
+}
+
+.filter-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.filter-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.filter-section li {
+    margin-bottom: 10px;
+}
+
+.filter-section input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.product-list {
+    flex-grow: 1; /* Để phần danh sách sản phẩm chiếm không gian còn lại */
+    text-align: center;
+}
+
+.page-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.page-description {
+    font-size: 1.2em;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.products .CardProduct {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.products .CardProduct:hover {
+    transform: translateY(-5px);
+}
+
+.products img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
